@@ -11,11 +11,11 @@ const heading2=  React.createElement('h1', {
 
 }, 'Another way to create React element ');
 
-const contatiner=  React.createElement('div', {
-    id: 'contatiner',
+const container=  React.createElement('div', {
+    id: 'container',
     key: 'class'
 
 }, [heading1, heading2]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(contatiner)
+root.render(container)
