@@ -1,0 +1,11 @@
+{
+  "name": "learn_react",
+  "version": "1.0.0",
+  "description": "This is the way to learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ritesh",
+  "license": "ISC"
+}
