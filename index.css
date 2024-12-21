@@ -1,7 +1,43 @@
-#container{
+.header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #690303;
+    justify-content: space-between;
+    margin: 10px;
+     border: 1px solid black;
+}
+.nav-items > ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-items > ul > li{
+    margin: 0 10px;
+}
+
+.logo{
+  width: 70px;
+    
+}
+
+.body{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+   
+}
+
+.restaurant-card{
+    width:200px;
+    margin: 5px;
+    border: 1px solid rgb(107, 33, 33);
+
+}
+
+.restaurant-card > img{
+
+    width:100%;
+
+}
+.restaurant-card > h4{
+  word-wrap: break-word;
+    overflow-wrap: break-word;
 }
