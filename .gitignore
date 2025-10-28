@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Parcel cache & build output
+.parcel-cache/
+dist/
+
+# Environment files (sensitive info like API keys)
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+
+# Optional OS cache files
+*.log
